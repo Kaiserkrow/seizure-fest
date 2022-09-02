@@ -1,0 +1,20 @@
+#whole-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.page {
+  margin-top: -3rem;
+}
+#start {
+  padding: 0.5rem 3rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
