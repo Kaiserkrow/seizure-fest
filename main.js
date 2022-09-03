@@ -24,10 +24,9 @@ function start() {
       let r = Math.floor(Math.random() * 255).toString(10);
       let g = Math.floor(Math.random() * 255).toString(10);
       let b = Math.floor(Math.random() * 255).toString(10);
-      let count = 0;
       document.body.style.backgroundColor = `rgb(${r} ,${g} , ${b})`;
       document.getElementById("color-rgb").textContent = `rgb(${r},${g},${b})`;
-      console.log("count");
+
       if (duration < 0) {
         clearInterval(colorChange);
       }
