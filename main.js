@@ -30,7 +30,7 @@ function start() {
       document.getElementById("color-rgb").textContent = `rgb(${r},${g},${b})`;
       let luma = 0.2126 * r + 0.7152 * g + 0.0722 * b; // per ITU-R BT.709
 
-      if (luma < 100) {
+      if (luma < 120) {
         for (let i = 0; i < allText.length; i++) {
           allText[i].style.color = "white";
         }
